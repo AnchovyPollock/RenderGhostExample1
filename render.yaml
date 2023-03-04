@@ -11,7 +11,7 @@ services:
     - key: database__client
       value: mysql
     - key: database__connection__host
-      value: sql105.epizy.com:3306
+      value: sql105.epizy.com/3306
     - key: database__connection__database
       value: epiz_33669804_ghost
     - key: database__connection__user
