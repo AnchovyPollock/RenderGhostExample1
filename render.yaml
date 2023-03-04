@@ -11,18 +11,13 @@ services:
     - key: database__client
       value: mysql
     - key: database__connection__host
-      fromService:
-        type: pserv
-        name: mysql
-        property: host
+      value: sql105.epizy.com
     - key: database__connection__database
-      value: ghostdb
+      value: epiz_33669804_ghost
     - key: database__connection__user
-      value: mysql
+      value: epiz_33669804
     - key: database__connection__password
-      fromService:
-        type: pserv
-        name: mysql
-        envVarKey: MYSQL_PASSWORD
+      value: urm5eatZOQ6A
+
 
 #pserv removed from here
