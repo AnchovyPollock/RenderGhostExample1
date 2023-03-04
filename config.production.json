@@ -7,11 +7,11 @@
   "database": {
     "client": "mysql",
     "connection": {
-      "host": "mysql-db",
+      "host": "sql105.epizy.com",
       "port": 3306,
-      "user": "admin",
-      "password": "DATABASE_PASSWORD",
-      "database": "DATABASE_NAME"
+      "user": "epiz_33669804",
+      "password": "urm5eatZOQ6A",
+      "database": "epiz_33669804_ghost"
     }
   },
   "mail": {
